@@ -1,6 +1,6 @@
-package constants;
+package org.rhoff95.mixer.constants;
 
-import domain.Paint;
+import org.rhoff95.mixer.domain.Paint;
 
 public class Vallejo {
 

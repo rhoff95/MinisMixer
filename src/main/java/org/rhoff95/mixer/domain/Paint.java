@@ -1,10 +1,13 @@
-package domain;
+package org.rhoff95.mixer.domain;
 
+import com.thoughtworks.xstream.annotations.XStreamAlias;
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 import org.optaplanner.examples.common.domain.AbstractPersistable;
+import org.optaplanner.examples.common.swingui.components.Labeled;
 
-public class Paint extends AbstractPersistable {
+@XStreamAlias("Paint")
+public class Paint extends AbstractPersistable implements Labeled {
 
     protected int r;
     protected int g;
@@ -54,5 +57,10 @@ public class Paint extends AbstractPersistable {
     @Override
     public String toString() {
         return ReflectionToStringBuilder.toString(this, ToStringStyle.JSON_STYLE);
+    }
+
+    @Override
+    public String getLabel() {
+        return "Paint " + id;
     }
 }

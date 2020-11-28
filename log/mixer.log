@@ -1,0 +1,136 @@
+15:21:25.648 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 4 has 0 paints with a search space of 1.[m 
+15:21:25.658 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\4queens.xml[m 
+15:21:25.658 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 8 has 0 paints with a search space of 1.[m 
+15:21:25.658 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\8queens.xml[m 
+15:21:25.659 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 16 has 0 paints with a search space of 1.[m 
+15:21:25.659 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\16queens.xml[m 
+15:21:25.661 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 32 has 0 paints with a search space of 1.[m 
+15:21:25.661 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\32queens.xml[m 
+15:21:25.661 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 64 has 0 paints with a search space of 1.[m 
+15:21:25.662 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\64queens.xml[m 
+15:21:25.662 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 256 has 0 paints with a search space of 1.[m 
+15:21:25.662 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\256queens.xml[m 
+15:22:24.673 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 4 has 0 paints with a search space of 1.[m 
+15:22:24.685 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\4mixer.xml[m 
+15:22:24.686 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 8 has 0 paints with a search space of 1.[m 
+15:22:24.687 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\8mixer.xml[m 
+15:22:24.687 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 16 has 0 paints with a search space of 1.[m 
+15:22:24.688 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\16mixer.xml[m 
+15:22:24.689 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 32 has 0 paints with a search space of 1.[m 
+15:22:24.690 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\32mixer.xml[m 
+15:22:24.690 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 64 has 0 paints with a search space of 1.[m 
+15:22:24.691 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\64mixer.xml[m 
+15:22:24.691 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 256 has 0 paints with a search space of 1.[m 
+15:22:24.692 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\256mixer.xml[m 
+15:24:47.655 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 4 has 4 paints with a search space of 1.[m 
+15:24:47.666 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\4mixer.xml[m 
+15:24:47.667 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 8 has 8 paints with a search space of 1.[m 
+15:24:47.670 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\8mixer.xml[m 
+15:24:47.671 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 16 has 16 paints with a search space of 1.[m 
+15:24:47.677 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\16mixer.xml[m 
+15:24:47.677 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 32 has 32 paints with a search space of 1.[m 
+15:24:47.685 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\32mixer.xml[m 
+15:24:47.685 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 64 has 64 paints with a search space of 1.[m 
+15:24:47.695 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\64mixer.xml[m 
+15:24:47.696 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 256 has 256 paints with a search space of 1.[m 
+15:24:47.713 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\256mixer.xml[m 
+15:30:35.061 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 4 has 4 paints with a search space of 10^10.[m 
+15:30:35.074 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\4mixer.xml[m 
+15:30:35.075 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 8 has 8 paints with a search space of 10^20.[m 
+15:30:35.078 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\8mixer.xml[m 
+15:30:35.078 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 16 has 16 paints with a search space of 10^39.[m 
+15:30:35.083 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\16mixer.xml[m 
+15:30:35.083 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 32 has 32 paints with a search space of 10^78.[m 
+15:30:35.092 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\32mixer.xml[m 
+15:30:35.092 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 64 has 64 paints with a search space of 10^155.[m 
+15:30:35.101 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\64mixer.xml[m 
+15:30:35.102 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 256 has 256 paints with a search space of 10^617.[m 
+15:30:35.120 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\256mixer.xml[m 
+15:39:31.161 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 4 has 4 paints with a search space of 10^10.[m 
+15:39:31.173 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\4mixer.xml[m 
+15:39:31.174 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 8 has 8 paints with a search space of 10^20.[m 
+15:39:31.177 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\8mixer.xml[m 
+15:39:31.178 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 16 has 16 paints with a search space of 10^39.[m 
+15:39:31.183 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\16mixer.xml[m 
+15:39:31.184 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 32 has 32 paints with a search space of 10^78.[m 
+15:39:31.194 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\32mixer.xml[m 
+15:39:31.195 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 64 has 64 paints with a search space of 10^155.[m 
+15:39:31.211 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\64mixer.xml[m 
+15:39:31.212 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 256 has 256 paints with a search space of 10^617.[m 
+15:39:31.238 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\256mixer.xml[m 
+15:40:05.885 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 4 has 4 paints with a search space of 10^10.[m 
+15:40:05.897 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\4mixer.xml[m 
+15:40:05.897 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 8 has 8 paints with a search space of 10^20.[m 
+15:40:05.901 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\8mixer.xml[m 
+15:40:05.901 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 16 has 16 paints with a search space of 10^39.[m 
+15:40:05.906 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\16mixer.xml[m 
+15:40:05.907 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 32 has 32 paints with a search space of 10^78.[m 
+15:40:05.914 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\32mixer.xml[m 
+15:40:05.915 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 64 has 64 paints with a search space of 10^155.[m 
+15:40:05.925 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\64mixer.xml[m 
+15:40:05.927 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 256 has 256 paints with a search space of 10^617.[m 
+15:40:05.942 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\256mixer.xml[m 
+16:12:54.308 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 4 has 4 paints with a search space of 10^10.[m 
+16:12:54.319 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\4mixer.xml[m 
+16:12:54.319 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 8 has 8 paints with a search space of 10^20.[m 
+16:12:54.321 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\8mixer.xml[m 
+16:12:54.322 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 16 has 16 paints with a search space of 10^39.[m 
+16:12:54.326 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\16mixer.xml[m 
+16:12:54.326 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 32 has 32 paints with a search space of 10^78.[m 
+16:12:54.332 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\32mixer.xml[m 
+16:12:54.333 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 64 has 64 paints with a search space of 10^155.[m 
+16:12:54.340 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\64mixer.xml[m 
+16:12:54.340 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 256 has 256 paints with a search space of 10^617.[m 
+16:12:54.358 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\256mixer.xml[m 
+16:53:35.715 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 4 has 4 paints with a search space of 10^10.[m 
+16:53:35.726 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\4mixer.xml[m 
+16:53:35.727 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 8 has 8 paints with a search space of 10^20.[m 
+16:53:35.730 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\8mixer.xml[m 
+16:53:35.730 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 16 has 16 paints with a search space of 10^39.[m 
+16:53:35.735 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\16mixer.xml[m 
+16:53:35.735 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 32 has 32 paints with a search space of 10^78.[m 
+16:53:35.742 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\32mixer.xml[m 
+16:53:35.743 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 64 has 64 paints with a search space of 10^155.[m 
+16:53:35.752 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\64mixer.xml[m 
+16:53:35.752 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 256 has 256 paints with a search space of 10^617.[m 
+16:53:35.773 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\256mixer.xml[m 
+16:54:11.524 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 4 has 4 paints with a search space of 10^10.[m 
+16:54:11.541 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\4mixer.xml[m 
+16:54:11.541 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 8 has 8 paints with a search space of 10^20.[m 
+16:54:11.543 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\8mixer.xml[m 
+16:54:11.544 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 16 has 16 paints with a search space of 10^39.[m 
+16:54:11.547 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\16mixer.xml[m 
+16:54:11.548 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 32 has 32 paints with a search space of 10^78.[m 
+16:54:11.556 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\32mixer.xml[m 
+16:54:11.556 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 64 has 64 paints with a search space of 10^155.[m 
+16:54:11.564 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\64mixer.xml[m 
+16:54:11.565 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 256 has 256 paints with a search space of 10^617.[m 
+16:54:11.581 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\256mixer.xml[m 
+17:07:26.305 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 4 has 4 paints with a search space of 10^10.[m 
+17:07:26.321 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\4mixer.xml[m 
+17:07:26.322 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 8 has 8 paints with a search space of 10^20.[m 
+17:07:26.325 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\8mixer.xml[m 
+17:07:26.325 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 16 has 16 paints with a search space of 10^39.[m 
+17:07:26.331 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\16mixer.xml[m 
+17:07:26.332 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 32 has 32 paints with a search space of 10^78.[m 
+17:07:26.342 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\32mixer.xml[m 
+17:07:26.343 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 64 has 64 paints with a search space of 10^155.[m 
+17:07:26.354 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\64mixer.xml[m 
+17:07:26.354 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 256 has 256 paints with a search space of 10^617.[m 
+17:07:26.373 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\256mixer.xml[m 
+17:10:20.187 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 4 has 4 paints with a search space of 10^10.[m 
+17:10:20.205 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\4mixer.xml[m 
+17:12:22.632 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 4 has 4 paints with a search space of 10^10.[m 
+17:12:22.646 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\4mixer.xml[m 
+17:12:38.203 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 4 has 4 paints with a search space of 10^10.[m 
+17:12:38.219 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\4mixer.xml[m 
+17:12:38.219 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 8 has 8 paints with a search space of 10^20.[m 
+17:12:38.223 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\8mixer.xml[m 
+17:12:38.223 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 16 has 16 paints with a search space of 10^39.[m 
+17:12:38.227 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\16mixer.xml[m 
+17:12:38.227 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 32 has 32 paints with a search space of 10^78.[m 
+17:12:38.233 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\32mixer.xml[m 
+17:12:38.234 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 64 has 64 paints with a search space of 10^155.[m 
+17:12:38.242 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\64mixer.xml[m 
+17:12:38.243 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mMixerSolution 256 has 256 paints with a search space of 10^617.[m 
+17:12:38.259 [main] org.rhoff95.mixer.persistence.MixerGenerator [32mINFO [m [32mSaved: data\mixer\unsolved\256mixer.xml[m 

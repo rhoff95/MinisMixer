@@ -59,6 +59,10 @@
             <groupId>org.optaplanner</groupId>
             <artifactId>optaplanner-examples</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.optaplanner</groupId>
+            <artifactId>optaplanner-persistence-xstream</artifactId>
+        </dependency>
 
         <!-- Testing -->
         <dependency>
@@ -67,6 +71,13 @@
             <version>${junit-jupiter.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>3.18.1</version>
+            <scope>test</scope>
+        </dependency>
+
 
         <!-- Logging -->
         <dependency>
