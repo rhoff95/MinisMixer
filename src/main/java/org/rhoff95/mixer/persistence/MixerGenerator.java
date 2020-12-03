@@ -4,6 +4,7 @@ import java.io.File;
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicLong;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScore;
@@ -12,6 +13,7 @@ import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
 import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 import org.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
 import org.rhoff95.mixer.app.MixerApp;
+import org.rhoff95.mixer.constants.Vallejo;
 import org.rhoff95.mixer.domain.MixerSolution;
 import org.rhoff95.mixer.domain.Paint;
 import org.rhoff95.mixer.domain.PaintMix;
@@ -21,6 +23,9 @@ public class MixerGenerator {
     private static final Logger logger = LogManager.getLogger(MixerGenerator.class);
     protected final SolutionFileIO<MixerSolution> solutionFileIO;
     protected final File outputDir;
+
+    private static final AtomicLong paintId = new AtomicLong();
+
     public MixerGenerator() {
         solutionFileIO = new XStreamSolutionFileIO<>(MixerSolution.class);
         outputDir = new File(CommonApp.determineDataDir(MixerApp.DATA_DIR_NAME), "unsolved");
@@ -57,6 +62,7 @@ public class MixerGenerator {
         MixerSolution mixerSolution = new MixerSolution();
         mixerSolution.setId(0L);
         mixerSolution.setScore(HardMediumSoftLongScore.ZERO);
+        mixerSolution.setTargetPaint(createTargetPaint());
         mixerSolution.setPaints(createPaints(n));
         mixerSolution.setPaintMixes(createPaintMixes(mixerSolution));
         BigInteger possibleSolutionSize =
@@ -67,11 +73,18 @@ public class MixerGenerator {
         return mixerSolution;
     }
 
+    private Paint createTargetPaint() {
+        Paint targetPaint = Vallejo.OrangeFire;
+        targetPaint.setId(paintId.getAndIncrement());
+
+        return targetPaint;
+    }
+
     private List<Paint> createPaints(int n) {
         List<Paint> paints = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             Paint paint = new Paint(i, i, i);
-            paint.setId((long) i);
+            paint.setId(paintId.getAndIncrement());
             paints.add(paint);
         }
         return paints;

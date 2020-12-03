@@ -1,0 +1,36 @@
+<Mixer id="1">
+  <id>0</id>
+  <targetPaint id="2">
+    <id>0</id>
+    <r>233.0</r>
+    <g>106.0</g>
+    <b>26.0</b>
+  </targetPaint>
+  <paints id="3">
+    <Paint id="4">
+      <id>1</id>
+      <r>252.0</r>
+      <g>224.0</g>
+      <b>1.0</b>
+    </Paint>
+    <Paint id="5">
+      <id>2</id>
+      <r>191.0</r>
+      <g>34.0</g>
+      <b>52.0</b>
+    </Paint>
+  </paints>
+  <paintMixes id="8">
+    <PaintMix id="9">
+      <id>0</id>
+      <paint reference="4"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="10">
+      <id>1</id>
+      <paint reference="5"/>
+      <amount>0</amount>
+    </PaintMix>
+  </paintMixes>
+  <score id="13">0hard/0medium/0soft</score>
+</Mixer>

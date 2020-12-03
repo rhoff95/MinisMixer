@@ -12,8 +12,8 @@ import org.optaplanner.core.api.domain.valuerange.CountableValueRange;
 import org.optaplanner.core.api.domain.valuerange.ValueRangeFactory;
 import org.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
 import org.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScore;
-import org.optaplanner.examples.common.domain.AbstractPersistable;
 import org.optaplanner.persistence.xstream.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScoreXStreamConverter;
+import org.rhoff95.mixer.constants.Vallejo;
 
 @PlanningSolution
 @XStreamAlias("Mixer")
@@ -27,12 +27,13 @@ public class MixerSolution extends AbstractPersistable {
     @XStreamConverter(HardMediumSoftLongScoreXStreamConverter.class)
     private HardMediumSoftLongScore score;
 
-//    public MixerSolution(List<Paint> paints) {
-//        this.paints = paints;
-//        this.paintMixes = paints.stream()
-//            .map(PaintMix::new)
-//            .collect(Collectors.toList());
-//    }
+    public MixerSolution() {
+        super();
+    }
+
+    public MixerSolution(long id) {
+        super(id);
+    }
 
     @ProblemFactProperty
     public Paint getTargetPaint() {
