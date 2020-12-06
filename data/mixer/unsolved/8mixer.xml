@@ -1,0 +1,111 @@
+<Mixer id="1">
+  <id>0</id>
+  <targetPaint id="2">
+    <id>5</id>
+    <r>233.0</r>
+    <g>106.0</g>
+    <b>26.0</b>
+    <label>Orange Fire</label>
+  </targetPaint>
+  <paints id="3">
+    <Paint id="4">
+      <id>6</id>
+      <r>0.0</r>
+      <g>0.0</g>
+      <b>0.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="5">
+      <id>7</id>
+      <r>1.0</r>
+      <g>1.0</g>
+      <b>1.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="6">
+      <id>8</id>
+      <r>2.0</r>
+      <g>2.0</g>
+      <b>2.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="7">
+      <id>9</id>
+      <r>3.0</r>
+      <g>3.0</g>
+      <b>3.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="8">
+      <id>10</id>
+      <r>4.0</r>
+      <g>4.0</g>
+      <b>4.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="9">
+      <id>11</id>
+      <r>5.0</r>
+      <g>5.0</g>
+      <b>5.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="10">
+      <id>12</id>
+      <r>6.0</r>
+      <g>6.0</g>
+      <b>6.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="11">
+      <id>13</id>
+      <r>7.0</r>
+      <g>7.0</g>
+      <b>7.0</b>
+      <label></label>
+    </Paint>
+  </paints>
+  <paintMixes id="12">
+    <PaintMix id="13">
+      <id>0</id>
+      <paint reference="4"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="14">
+      <id>1</id>
+      <paint reference="5"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="15">
+      <id>2</id>
+      <paint reference="6"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="16">
+      <id>3</id>
+      <paint reference="7"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="17">
+      <id>4</id>
+      <paint reference="8"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="18">
+      <id>5</id>
+      <paint reference="9"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="19">
+      <id>6</id>
+      <paint reference="10"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="20">
+      <id>7</id>
+      <paint reference="11"/>
+      <amount>0</amount>
+    </PaintMix>
+  </paintMixes>
+  <score id="21">0hard/0medium/0soft</score>
+</Mixer>

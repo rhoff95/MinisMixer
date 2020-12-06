@@ -1,0 +1,783 @@
+<Mixer id="1">
+  <id>0</id>
+  <targetPaint id="2">
+    <id>64</id>
+    <r>233.0</r>
+    <g>106.0</g>
+    <b>26.0</b>
+    <label>Orange Fire</label>
+  </targetPaint>
+  <paints id="3">
+    <Paint id="4">
+      <id>65</id>
+      <r>0.0</r>
+      <g>0.0</g>
+      <b>0.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="5">
+      <id>66</id>
+      <r>1.0</r>
+      <g>1.0</g>
+      <b>1.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="6">
+      <id>67</id>
+      <r>2.0</r>
+      <g>2.0</g>
+      <b>2.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="7">
+      <id>68</id>
+      <r>3.0</r>
+      <g>3.0</g>
+      <b>3.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="8">
+      <id>69</id>
+      <r>4.0</r>
+      <g>4.0</g>
+      <b>4.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="9">
+      <id>70</id>
+      <r>5.0</r>
+      <g>5.0</g>
+      <b>5.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="10">
+      <id>71</id>
+      <r>6.0</r>
+      <g>6.0</g>
+      <b>6.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="11">
+      <id>72</id>
+      <r>7.0</r>
+      <g>7.0</g>
+      <b>7.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="12">
+      <id>73</id>
+      <r>8.0</r>
+      <g>8.0</g>
+      <b>8.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="13">
+      <id>74</id>
+      <r>9.0</r>
+      <g>9.0</g>
+      <b>9.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="14">
+      <id>75</id>
+      <r>10.0</r>
+      <g>10.0</g>
+      <b>10.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="15">
+      <id>76</id>
+      <r>11.0</r>
+      <g>11.0</g>
+      <b>11.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="16">
+      <id>77</id>
+      <r>12.0</r>
+      <g>12.0</g>
+      <b>12.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="17">
+      <id>78</id>
+      <r>13.0</r>
+      <g>13.0</g>
+      <b>13.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="18">
+      <id>79</id>
+      <r>14.0</r>
+      <g>14.0</g>
+      <b>14.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="19">
+      <id>80</id>
+      <r>15.0</r>
+      <g>15.0</g>
+      <b>15.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="20">
+      <id>81</id>
+      <r>16.0</r>
+      <g>16.0</g>
+      <b>16.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="21">
+      <id>82</id>
+      <r>17.0</r>
+      <g>17.0</g>
+      <b>17.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="22">
+      <id>83</id>
+      <r>18.0</r>
+      <g>18.0</g>
+      <b>18.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="23">
+      <id>84</id>
+      <r>19.0</r>
+      <g>19.0</g>
+      <b>19.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="24">
+      <id>85</id>
+      <r>20.0</r>
+      <g>20.0</g>
+      <b>20.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="25">
+      <id>86</id>
+      <r>21.0</r>
+      <g>21.0</g>
+      <b>21.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="26">
+      <id>87</id>
+      <r>22.0</r>
+      <g>22.0</g>
+      <b>22.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="27">
+      <id>88</id>
+      <r>23.0</r>
+      <g>23.0</g>
+      <b>23.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="28">
+      <id>89</id>
+      <r>24.0</r>
+      <g>24.0</g>
+      <b>24.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="29">
+      <id>90</id>
+      <r>25.0</r>
+      <g>25.0</g>
+      <b>25.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="30">
+      <id>91</id>
+      <r>26.0</r>
+      <g>26.0</g>
+      <b>26.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="31">
+      <id>92</id>
+      <r>27.0</r>
+      <g>27.0</g>
+      <b>27.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="32">
+      <id>93</id>
+      <r>28.0</r>
+      <g>28.0</g>
+      <b>28.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="33">
+      <id>94</id>
+      <r>29.0</r>
+      <g>29.0</g>
+      <b>29.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="34">
+      <id>95</id>
+      <r>30.0</r>
+      <g>30.0</g>
+      <b>30.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="35">
+      <id>96</id>
+      <r>31.0</r>
+      <g>31.0</g>
+      <b>31.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="36">
+      <id>97</id>
+      <r>32.0</r>
+      <g>32.0</g>
+      <b>32.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="37">
+      <id>98</id>
+      <r>33.0</r>
+      <g>33.0</g>
+      <b>33.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="38">
+      <id>99</id>
+      <r>34.0</r>
+      <g>34.0</g>
+      <b>34.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="39">
+      <id>100</id>
+      <r>35.0</r>
+      <g>35.0</g>
+      <b>35.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="40">
+      <id>101</id>
+      <r>36.0</r>
+      <g>36.0</g>
+      <b>36.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="41">
+      <id>102</id>
+      <r>37.0</r>
+      <g>37.0</g>
+      <b>37.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="42">
+      <id>103</id>
+      <r>38.0</r>
+      <g>38.0</g>
+      <b>38.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="43">
+      <id>104</id>
+      <r>39.0</r>
+      <g>39.0</g>
+      <b>39.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="44">
+      <id>105</id>
+      <r>40.0</r>
+      <g>40.0</g>
+      <b>40.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="45">
+      <id>106</id>
+      <r>41.0</r>
+      <g>41.0</g>
+      <b>41.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="46">
+      <id>107</id>
+      <r>42.0</r>
+      <g>42.0</g>
+      <b>42.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="47">
+      <id>108</id>
+      <r>43.0</r>
+      <g>43.0</g>
+      <b>43.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="48">
+      <id>109</id>
+      <r>44.0</r>
+      <g>44.0</g>
+      <b>44.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="49">
+      <id>110</id>
+      <r>45.0</r>
+      <g>45.0</g>
+      <b>45.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="50">
+      <id>111</id>
+      <r>46.0</r>
+      <g>46.0</g>
+      <b>46.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="51">
+      <id>112</id>
+      <r>47.0</r>
+      <g>47.0</g>
+      <b>47.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="52">
+      <id>113</id>
+      <r>48.0</r>
+      <g>48.0</g>
+      <b>48.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="53">
+      <id>114</id>
+      <r>49.0</r>
+      <g>49.0</g>
+      <b>49.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="54">
+      <id>115</id>
+      <r>50.0</r>
+      <g>50.0</g>
+      <b>50.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="55">
+      <id>116</id>
+      <r>51.0</r>
+      <g>51.0</g>
+      <b>51.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="56">
+      <id>117</id>
+      <r>52.0</r>
+      <g>52.0</g>
+      <b>52.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="57">
+      <id>118</id>
+      <r>53.0</r>
+      <g>53.0</g>
+      <b>53.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="58">
+      <id>119</id>
+      <r>54.0</r>
+      <g>54.0</g>
+      <b>54.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="59">
+      <id>120</id>
+      <r>55.0</r>
+      <g>55.0</g>
+      <b>55.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="60">
+      <id>121</id>
+      <r>56.0</r>
+      <g>56.0</g>
+      <b>56.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="61">
+      <id>122</id>
+      <r>57.0</r>
+      <g>57.0</g>
+      <b>57.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="62">
+      <id>123</id>
+      <r>58.0</r>
+      <g>58.0</g>
+      <b>58.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="63">
+      <id>124</id>
+      <r>59.0</r>
+      <g>59.0</g>
+      <b>59.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="64">
+      <id>125</id>
+      <r>60.0</r>
+      <g>60.0</g>
+      <b>60.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="65">
+      <id>126</id>
+      <r>61.0</r>
+      <g>61.0</g>
+      <b>61.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="66">
+      <id>127</id>
+      <r>62.0</r>
+      <g>62.0</g>
+      <b>62.0</b>
+      <label></label>
+    </Paint>
+    <Paint id="67">
+      <id>128</id>
+      <r>63.0</r>
+      <g>63.0</g>
+      <b>63.0</b>
+      <label></label>
+    </Paint>
+  </paints>
+  <paintMixes id="68">
+    <PaintMix id="69">
+      <id>0</id>
+      <paint reference="4"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="70">
+      <id>1</id>
+      <paint reference="5"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="71">
+      <id>2</id>
+      <paint reference="6"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="72">
+      <id>3</id>
+      <paint reference="7"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="73">
+      <id>4</id>
+      <paint reference="8"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="74">
+      <id>5</id>
+      <paint reference="9"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="75">
+      <id>6</id>
+      <paint reference="10"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="76">
+      <id>7</id>
+      <paint reference="11"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="77">
+      <id>8</id>
+      <paint reference="12"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="78">
+      <id>9</id>
+      <paint reference="13"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="79">
+      <id>10</id>
+      <paint reference="14"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="80">
+      <id>11</id>
+      <paint reference="15"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="81">
+      <id>12</id>
+      <paint reference="16"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="82">
+      <id>13</id>
+      <paint reference="17"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="83">
+      <id>14</id>
+      <paint reference="18"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="84">
+      <id>15</id>
+      <paint reference="19"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="85">
+      <id>16</id>
+      <paint reference="20"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="86">
+      <id>17</id>
+      <paint reference="21"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="87">
+      <id>18</id>
+      <paint reference="22"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="88">
+      <id>19</id>
+      <paint reference="23"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="89">
+      <id>20</id>
+      <paint reference="24"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="90">
+      <id>21</id>
+      <paint reference="25"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="91">
+      <id>22</id>
+      <paint reference="26"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="92">
+      <id>23</id>
+      <paint reference="27"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="93">
+      <id>24</id>
+      <paint reference="28"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="94">
+      <id>25</id>
+      <paint reference="29"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="95">
+      <id>26</id>
+      <paint reference="30"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="96">
+      <id>27</id>
+      <paint reference="31"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="97">
+      <id>28</id>
+      <paint reference="32"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="98">
+      <id>29</id>
+      <paint reference="33"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="99">
+      <id>30</id>
+      <paint reference="34"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="100">
+      <id>31</id>
+      <paint reference="35"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="101">
+      <id>32</id>
+      <paint reference="36"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="102">
+      <id>33</id>
+      <paint reference="37"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="103">
+      <id>34</id>
+      <paint reference="38"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="104">
+      <id>35</id>
+      <paint reference="39"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="105">
+      <id>36</id>
+      <paint reference="40"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="106">
+      <id>37</id>
+      <paint reference="41"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="107">
+      <id>38</id>
+      <paint reference="42"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="108">
+      <id>39</id>
+      <paint reference="43"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="109">
+      <id>40</id>
+      <paint reference="44"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="110">
+      <id>41</id>
+      <paint reference="45"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="111">
+      <id>42</id>
+      <paint reference="46"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="112">
+      <id>43</id>
+      <paint reference="47"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="113">
+      <id>44</id>
+      <paint reference="48"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="114">
+      <id>45</id>
+      <paint reference="49"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="115">
+      <id>46</id>
+      <paint reference="50"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="116">
+      <id>47</id>
+      <paint reference="51"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="117">
+      <id>48</id>
+      <paint reference="52"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="118">
+      <id>49</id>
+      <paint reference="53"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="119">
+      <id>50</id>
+      <paint reference="54"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="120">
+      <id>51</id>
+      <paint reference="55"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="121">
+      <id>52</id>
+      <paint reference="56"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="122">
+      <id>53</id>
+      <paint reference="57"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="123">
+      <id>54</id>
+      <paint reference="58"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="124">
+      <id>55</id>
+      <paint reference="59"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="125">
+      <id>56</id>
+      <paint reference="60"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="126">
+      <id>57</id>
+      <paint reference="61"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="127">
+      <id>58</id>
+      <paint reference="62"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="128">
+      <id>59</id>
+      <paint reference="63"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="129">
+      <id>60</id>
+      <paint reference="64"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="130">
+      <id>61</id>
+      <paint reference="65"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="131">
+      <id>62</id>
+      <paint reference="66"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="132">
+      <id>63</id>
+      <paint reference="67"/>
+      <amount>0</amount>
+    </PaintMix>
+  </paintMixes>
+  <score id="133">0hard/0medium/0soft</score>
+</Mixer>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solver xmlns="https://www.optaplanner.org/xsd/solver"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.optaplanner.org/xsd/solver https://www.optaplanner.org/xsd/solver/solver.xsd">
+    <!-- Domain model configuration -->
+    <solutionClass>org.rhoff95.mixer.domain.MixerSolution</solutionClass>
+    <entityClass>org.rhoff95.mixer.domain.PaintMix</entityClass>
+
+    <!-- Score configuration -->
+    <scoreDirectorFactory>
+        <easyScoreCalculatorClass>
+            org.rhoff95.mixer.solver.score.MixerEasyScoreCalculator
+        </easyScoreCalculatorClass>
+        <!--<scoreDrl>org/optaplanner/examples/cloudbalancing/solver/cloudBalancingConstraints.drl</scoreDrl>-->
+    </scoreDirectorFactory>
+
+    <constructionHeuristic>
+        <constructionHeuristicType>FIRST_FIT</constructionHeuristicType>
+    </constructionHeuristic>
+
+    <!-- Optimization algorithms configuration -->
+    <!--    <termination>-->
+    <!--        <millisecondsSpentLimit>50</millisecondsSpentLimit>-->
+    <!--    </termination>-->
+
+    <localSearch>
+        <termination>
+            <secondsSpentLimit>2</secondsSpentLimit>
+        </termination>
+        <unionMoveSelector>
+            <changeMoveSelector>
+                <selectionOrder>ORIGINAL</selectionOrder>
+            </changeMoveSelector>
+            <moveListFactory>
+                <moveListFactoryClass>
+                    org.rhoff95.mixer.solver.move.factory.MixChangeMoveFactory
+                </moveListFactoryClass>
+            </moveListFactory>
+        </unionMoveSelector>
+    </localSearch>
+</solver>
