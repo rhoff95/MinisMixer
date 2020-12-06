@@ -5,22 +5,28 @@ import com.thoughtworks.xstream.annotations.XStreamAlias;
 @XStreamAlias("Paint")
 public class Paint extends AbstractPersistable {
 
-    protected float r;
-    protected float g;
-    protected float b;
-
-    public Paint(Paint o) {
-        this(o.r, o.g, o.b);
-    }
+    protected final float r;
+    protected final float g;
+    protected final float b;
+    protected final String label;
 
     public Paint() {
         this(0, 0, 0);
     }
 
+    public Paint(Paint o) {
+        this(o.r, o.g, o.b, o.label);
+    }
+
     public Paint(float r, float g, float b) {
+        this(r, g, b, "");
+    }
+
+    public Paint(float r, float g, float b, String label) {
         this.r = r;
         this.g = g;
         this.b = b;
+        this.label = label;
     }
 
     public Paint plus(Paint other) {
@@ -34,23 +40,15 @@ public class Paint extends AbstractPersistable {
         return r;
     }
 
-    public void setR(float r) {
-        this.r = r;
-    }
-
     public float getG() {
         return g;
-    }
-
-    public void setG(float g) {
-        this.g = g;
     }
 
     public float getB() {
         return b;
     }
 
-    public void setB(float b) {
-        this.b = b;
+    public String getLabel() {
+        return label;
     }
 }

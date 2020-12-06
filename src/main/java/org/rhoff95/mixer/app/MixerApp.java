@@ -22,7 +22,7 @@ import org.rhoff95.mixer.domain.MixerSolution;
 import org.rhoff95.mixer.domain.PaintMix;
 import org.rhoff95.mixer.persistence.MixerXmlSolutionFileIO;
 import org.rhoff95.mixer.solver.score.MixerEasyScoreCalculator;
-import org.rhoff95.mixer.sqingui.MixerPanel;
+import org.rhoff95.mixer.swingui.MixerPanel;
 
 public class MixerApp extends CommonApp<MixerSolution> {
 

@@ -3,6 +3,8 @@ package org.rhoff95.mixer.persistence;
 import java.io.File;
 import java.math.BigInteger;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 import org.apache.logging.log4j.LogManager;
@@ -48,12 +50,28 @@ public class MixerGenerator {
         generator.writeMixerSolution(32);
         generator.writeMixerSolution(64);
         generator.writeMixerSolution(256);
+        generator.writeMixerSetSolution(
+            "vallejo",
+            Arrays.asList(
+                Vallejo.MoonYellow,
+                Vallejo.GoldYellow,
+                Vallejo.HotOrange,
+                Vallejo.BloodyRed
+            ));
     }
 
     private void writeMixerSolution(int n) {
         String outputFileName = n + "mixer.xml";
         File outputFile = new File(outputDir, outputFileName);
         MixerSolution mixerSolution = createMixerSolution(n);
+        solutionFileIO.write(mixerSolution, outputFile);
+        logger.info("Saved: {}", outputFile);
+    }
+
+    private void writeMixerSetSolution(String name, Collection<Paint> paints) {
+        String outputFileName = name + ".xml";
+        File outputFile = new File(outputDir, outputFileName);
+        MixerSolution mixerSolution = createMixerSolution(paints);
         solutionFileIO.write(mixerSolution, outputFile);
         logger.info("Saved: {}", outputFile);
     }
@@ -69,6 +87,25 @@ public class MixerGenerator {
             BigInteger.valueOf(255).pow(mixerSolution.getPaints().size());
         logger.info("MixerSolution {} has {} paints with a search space of {}.",
             n, mixerSolution.getPaints().size(),
+            AbstractSolutionImporter.getFlooredPossibleSolutionSize(possibleSolutionSize));
+        return mixerSolution;
+    }
+
+    public MixerSolution createMixerSolution(Collection<Paint> paints) {
+        MixerSolution mixerSolution = new MixerSolution();
+        mixerSolution.setId(0L);
+        mixerSolution.setScore(HardMediumSoftLongScore.ZERO);
+        mixerSolution.setTargetPaint(createTargetPaint());
+
+        for (Paint paint : paints) {
+            paint.setId(paintId.getAndIncrement());
+        }
+        mixerSolution.setPaints((List<Paint>) paints);
+        mixerSolution.setPaintMixes(createPaintMixes(mixerSolution));
+        BigInteger possibleSolutionSize =
+            BigInteger.valueOf(255).pow(mixerSolution.getPaints().size());
+        logger.info("MixerSolution {} has {} paints with a search space of {}.",
+            paints.size(), mixerSolution.getPaints().size(),
             AbstractSolutionImporter.getFlooredPossibleSolutionSize(possibleSolutionSize));
         return mixerSolution;
     }

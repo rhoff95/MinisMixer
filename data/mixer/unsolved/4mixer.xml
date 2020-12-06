@@ -5,6 +5,7 @@
     <r>233.0</r>
     <g>106.0</g>
     <b>26.0</b>
+    <label>Orange Fire</label>
   </targetPaint>
   <paints id="3">
     <Paint id="4">
@@ -12,24 +13,28 @@
       <r>0.0</r>
       <g>0.0</g>
       <b>0.0</b>
+      <label></label>
     </Paint>
     <Paint id="5">
       <id>2</id>
       <r>1.0</r>
       <g>1.0</g>
       <b>1.0</b>
+      <label></label>
     </Paint>
     <Paint id="6">
       <id>3</id>
       <r>2.0</r>
       <g>2.0</g>
       <b>2.0</b>
+      <label></label>
     </Paint>
     <Paint id="7">
       <id>4</id>
       <r>3.0</r>
       <g>3.0</g>
       <b>3.0</b>
+      <label></label>
     </Paint>
   </paints>
   <paintMixes id="8">
