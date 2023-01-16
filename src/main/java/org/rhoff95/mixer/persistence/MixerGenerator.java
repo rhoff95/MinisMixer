@@ -1,12 +1,16 @@
 package org.rhoff95.mixer.persistence;
 
 import java.io.File;
+import java.io.IOException;
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScore;
@@ -19,6 +23,12 @@ import org.rhoff95.mixer.constants.Vallejo;
 import org.rhoff95.mixer.domain.MixerSolution;
 import org.rhoff95.mixer.domain.Paint;
 import org.rhoff95.mixer.domain.PaintMix;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NamedNodeMap;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
 
 public class MixerGenerator {
 
@@ -42,7 +52,8 @@ public class MixerGenerator {
         outputDir = null;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+        throws IOException, SAXException, ParserConfigurationException {
         MixerGenerator generator = new MixerGenerator();
         generator.writeMixerSolution(4);
         generator.writeMixerSolution(8);
@@ -50,14 +61,7 @@ public class MixerGenerator {
         generator.writeMixerSolution(32);
         generator.writeMixerSolution(64);
         generator.writeMixerSolution(256);
-        generator.writeMixerSetSolution(
-            "vallejo",
-            Arrays.asList(
-                Vallejo.MoonYellow,
-                Vallejo.GoldYellow,
-                Vallejo.HotOrange,
-                Vallejo.BloodyRed
-            ));
+        generator.writeMixerSetSolution("vallejo");
     }
 
     private void writeMixerSolution(int n) {
@@ -68,12 +72,54 @@ public class MixerGenerator {
         logger.info("Saved: {}", outputFile);
     }
 
-    private void writeMixerSetSolution(String name, Collection<Paint> paints) {
+    private void writeMixerSetSolution(String name)
+        throws IOException, SAXException, ParserConfigurationException {
         String outputFileName = name + ".xml";
         File outputFile = new File(outputDir, outputFileName);
+        Collection<Paint> paints = readPaintsFromFile(name);
         MixerSolution mixerSolution = createMixerSolution(paints);
         solutionFileIO.write(mixerSolution, outputFile);
         logger.info("Saved: {}", outputFile);
+    }
+
+    private Collection<Paint> readPaintsFromFile(String fileName)
+        throws ParserConfigurationException, IOException, SAXException {
+        var file = new File(CommonApp.determineDataDir(MixerApp.DATA_DIR_NAME), "/colors/" + fileName + ".xml");
+
+        List<Paint> paints = new ArrayList<>();
+
+        DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+//an instance of builder to parse the specified xml file
+        DocumentBuilder db = dbf.newDocumentBuilder();
+        Document doc = db.parse(file);
+        doc.getDocumentElement().normalize();
+        logger.info("Root element: {}", doc.getDocumentElement().getNodeName());
+
+        NodeList nodeList = doc.getElementsByTagName("paint");
+
+        for (int itr = 0; itr < nodeList.getLength(); itr++)
+        {
+            Node paintNode = nodeList.item(itr);
+
+            if (paintNode.getNodeType() == Node.ELEMENT_NODE)
+            {
+                Element paintElement = (Element) paintNode;
+                String brand = paintElement.getAttribute("brand");
+                String name = paintElement.getAttribute("name");
+
+                Node colorNode = ((Element) paintNode).getElementsByTagName("color").item(0);
+                NamedNodeMap colorAttributes = colorNode.getAttributes();
+                int a = Integer.parseInt(colorAttributes.getNamedItem("a").getNodeValue());
+                int r = Integer.parseInt(colorAttributes.getNamedItem("r").getNodeValue());
+                int g = Integer.parseInt(colorAttributes.getNamedItem("g").getNodeValue());
+                int b = Integer.parseInt(colorAttributes.getNamedItem("b").getNodeValue());
+
+                Paint paint = new Paint(r , g, b, name);
+                paints.add(paint);
+            }
+        }
+
+        return paints;
     }
 
     public MixerSolution createMixerSolution(int n) {

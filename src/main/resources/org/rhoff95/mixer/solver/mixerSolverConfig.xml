@@ -25,11 +25,11 @@
 
     <localSearch>
         <termination>
-            <secondsSpentLimit>2</secondsSpentLimit>
+            <unimprovedSecondsSpentLimit>5</unimprovedSecondsSpentLimit>
         </termination>
         <unionMoveSelector>
             <changeMoveSelector>
-                <selectionOrder>ORIGINAL</selectionOrder>
+                <selectionOrder>RANDOM</selectionOrder>
             </changeMoveSelector>
             <moveListFactory>
                 <moveListFactoryClass>

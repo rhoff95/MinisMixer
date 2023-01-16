@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<paints>
+    <paint brand="Vallejo" name="vallejo arctic white">
+        <color a="255" b="255" g="255" r="255"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo beasty brown">
+        <color a="255" b="61" g="86" r="118"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo black">
+        <color a="255" b="1" g="1" r="1"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo black green ink">
+        <color a="255" b="74" g="101" r="15"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo black ink">
+        <color a="255" b="34" g="39" r="40"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo bloody red">
+        <color a="255" b="52" g="17" r="191"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo blue ink">
+        <color a="255" b="154" g="76" r="0"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo bonewhite">
+        <color a="255" b="150" g="197" r="228"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo brassy brass">
+        <color a="255" b="57" g="85" r="132"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo bright bronze">
+        <color a="255" b="65" g="105" r="163"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo bronze fleshtone">
+        <color a="255" b="94" g="167" r="241"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo brown ink">
+        <color a="255" b="42" g="99" r="154"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo cadmium skin">
+        <color a="255" b="133" g="177" r="248"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo camouflage green">
+        <color a="255" b="61" g="123" r="141"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo cayman green">
+        <color a="255" b="61" g="89" r="0"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo chainmail silver">
+        <color a="255" b="124" g="124" r="124"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo charred brown">
+        <color a="255" b="60" g="64" r="75"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo cold grey">
+        <color a="255" b="124" g="124" r="124"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo dark blue">
+        <color a="255" b="117" g="71" r="70"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo dark fleshtone">
+        <color a="255" b="55" g="64" r="97"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo dark green">
+        <color a="255" b="61" g="67" r="56"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo dead flesh">
+        <color a="255" b="130" g="198" r="211"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo dead white">
+        <color a="255" b="255" g="255" r="255"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo desert yellow">
+        <color a="255" b="67" g="136" r="153"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo dried blood">
+        <color a="255" b="29" g="42" r="98"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo dry rust">
+        <color a="255" b="45" g="51" r="94"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo dwarf skin">
+        <color a="255" b="105" g="145" r="217"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo earth">
+        <color a="255" b="69" g="96" r="122"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo electric blue">
+        <color a="255" b="182" g="149" r="52"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo elf skintone">
+        <color a="255" b="116" g="163" r="224"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo elfic flesh">
+        <color a="255" b="183" g="215" r="234"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo escorpena green">
+        <color a="255" b="74" g="166" r="119"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo filthy brown">
+        <color a="255" b="0" g="147" r="233"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo fluorescent green">
+        <color a="255" b="96" g="212" r="193"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo fluorescent yellow">
+        <color a="255" b="0" g="238" r="255"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo foul green">
+        <color a="255" b="128" g="158" r="63"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo fresh blood">
+        <color a="255" b="25" g="43" r="126"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo ghost grey">
+        <color a="255" b="212" g="203" r="194"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo glacier blue">
+        <color a="255" b="233" g="206" r="180"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo glorious gold">
+        <color a="255" b="50" g="109" r="155"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo goblin green">
+        <color a="255" b="40" g="108" r="43"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo gold yellow">
+        <color a="255" b="0" g="197" r="253"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo gory red">
+        <color a="255" b="52" g="14" r="133"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo green ink">
+        <color a="255" b="103" g="170" r="61"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo gunmetal">
+        <color a="255" b="101" g="99" r="99"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo hammered copper">
+        <color a="255" b="55" g="69" r="122"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo heavy blackgreen">
+        <color a="255" b="67" g="73" r="62"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo heavy blue">
+        <color a="255" b="120" g="91" r="64"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo heavy bluegrey">
+        <color a="255" b="200" g="202" r="203"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo heavy brown">
+        <color a="255" b="78" g="103" r="123"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo heavy charcoal">
+        <color a="255" b="78" g="70" r="70"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo heavy goldbrown">
+        <color a="255" b="68" g="134" r="182"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo heavy green">
+        <color a="255" b="55" g="102" r="86"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo heavy grey">
+        <color a="255" b="84" g="115" r="112"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo heavy kakhi">
+        <color a="255" b="80" g="159" r="180"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo heavy ochre">
+        <color a="255" b="39" g="119" r="174"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo heavy orange">
+        <color a="255" b="15" g="94" r="235"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo heavy red">
+        <color a="255" b="60" g="54" r="141"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo heavy siena">
+        <color a="255" b="59" g="72" r="94"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo heavy skintone">
+        <color a="255" b="104" g="132" r="173"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo heavy violet">
+        <color a="255" b="105" g="64" r="72"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo heavy wamgrey">
+        <color a="255" b="115" g="157" r="170"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo hexed lichen">
+        <color a="255" b="126" g="46" r="81"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo hot orange">
+        <color a="255" b="42" g="76" r="230"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo imperial blue">
+        <color a="255" b="99" g="72" r="52"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo jade green">
+        <color a="255" b="102" g="130" r="0"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo khaki">
+        <color a="255" b="115" g="157" r="170"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo leather brown">
+        <color a="255" b="60" g="100" r="135"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo livery green">
+        <color a="255" b="81" g="196" r="157"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo magic blue">
+        <color a="255" b="181" g="109" r="1"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo moon yellow">
+        <color a="255" b="0" g="224" r="252"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo mutation green">
+        <color a="255" b="80" g="118" r="76"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo night blue">
+        <color a="255" b="69" g="57" r="57"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo off white">
+        <color a="255" b="218" g="243" r="253"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo orange fire">
+        <color a="255" b="26" g="101" r="233"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo pale flesh">
+        <color a="255" b="169" g="189" r="236"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo pale yellow">
+        <color a="255" b="125" g="205" r="234"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo parasite brown">
+        <color a="255" b="25" g="80" r="161"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo plague brown">
+        <color a="255" b="5" g="143" r="209"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo polished gold">
+        <color a="255" b="34" g="174" r="210"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo red ink">
+        <color a="255" b="56" g="50" r="229"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo rosy flesh">
+        <color a="255" b="170" g="181" r="243"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo rotten white">
+        <color a="255" b="239" g="238" r="240"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo royal purple">
+        <color a="255" b="98" g="67" r="70"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo rust">
+        <color a="255" b="20" g="83" r="228"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo scarlett blood">
+        <color a="255" b="89" g="0" r="228"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo scarlett red">
+        <color a="255" b="44" g="18" r="156"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo scrofulous brown">
+        <color a="255" b="46" g="119" r="187"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo scurvy green">
+        <color a="255" b="83" g="86" r="40"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo sepia ink">
+        <color a="255" b="40" g="111" r="155"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo sick green">
+        <color a="255" b="78" g="110" r="75"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo silver">
+        <color a="255" b="176" g="172" r="167"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo skin wash ink">
+        <color a="255" b="24" g="111" r="197"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo smokey ink">
+        <color a="255" b="50" g="54" r="73"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo sombre grey">
+        <color a="255" b="127" g="107" r="96"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo squid pink">
+        <color a="255" b="182" g="138" r="209"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo steel grey">
+        <color a="255" b="161" g="143" r="114"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo stonewall grey">
+        <color a="255" b="159" g="159" r="159"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo stormy blue">
+        <color a="255" b="87" g="63" r="65"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo sun yellow">
+        <color a="255" b="0" g="227" r="254"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo tan">
+        <color a="255" b="74" g="89" r="168"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo terracotta">
+        <color a="255" b="56" g="62" r="105"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo tinny tin">
+        <color a="255" b="47" g="46" r="80"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo turquoise">
+        <color a="255" b="142" g="127" r="1"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo ultramarine blue">
+        <color a="255" b="137" g="83" r="28"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo verdigris">
+        <color a="255" b="212" g="215" r="169"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo verdigris">
+        <color a="255" b="204" g="203" r="145"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo violet ink">
+        <color a="255" b="133" g="46" r="104"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo vomit">
+        <color a="255" b="51" g="124" r="132"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo warlord purple">
+        <color a="255" b="70" g="34" r="134"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo wolf grey">
+        <color a="255" b="203" g="193" r="175"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo yellow ink">
+        <color a="255" b="70" g="211" r="254"/>
+    </paint>
+    <paint brand="Vallejo" name="vallejo yellow olive">
+        <color a="255" b="57" g="79" r="30"/>
+    </paint>
+    <paint brand="Vallejo" name="wash vallejo">
+        <color a="255" b="44" g="98" r="139"/>
+    </paint>
+    <paint brand="Vallejo" name="wash vallejo">
+        <color a="255" b="53" g="50" r="52"/>
+    </paint>
+    <paint brand="Vallejo" name="wash vallejo">
+        <color a="255" b="210" g="202" r="202"/>
+    </paint>
+    <paint brand="Vallejo" name="wash vallejo">
+        <color a="255" b="83" g="96" r="118"/>
+    </paint>
+    <paint brand="Vallejo" name="wash vallejo">
+        <color a="255" b="120" g="124" r="182"/>
+    </paint>
+    <paint brand="Vallejo" name="wash vallejo">
+        <color a="255" b="91" g="178" r="114"/>
+    </paint>
+    <paint brand="Vallejo" name="wash vallejo">
+        <color a="255" b="134" g="94" r="213"/>
+    </paint>
+    <paint brand="Vallejo" name="wash vallejo">
+        <color a="255" b="155" g="91" r="26"/>
+    </paint>
+</paints>

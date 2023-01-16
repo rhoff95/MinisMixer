@@ -17,7 +17,7 @@ public class Vallejo {
     /**
      * 72.008
      */
-    public static final Paint OrangeFire = new Paint(233, 106, 26, "Orange Fire");
+    public static final Paint OrangeFire = new Paint(233, 101, 26, "Orange Fire");
 
     /**
      * 72.009

@@ -77,6 +77,6 @@ public class MixerSolution extends AbstractPersistable {
 
     @ValueRangeProvider(id = "mixtureRange")
     public CountableValueRange<Integer> getMixtureRange() {
-        return ValueRangeFactory.createIntValueRange(0, 1000);
+        return ValueRangeFactory.createIntValueRange(0, 100);
     }
 }

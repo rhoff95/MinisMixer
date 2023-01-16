@@ -19,6 +19,7 @@ public class MixerEasyScoreCalculator implements
         Paint targetPaint = mixerSolution.getTargetPaint();
 
         var mixes = 0;
+        var paintWithMix = 0;
         var r = 0;
         var g = 0;
         var b = 0;
@@ -30,6 +31,9 @@ public class MixerEasyScoreCalculator implements
             var amount = paintMix.getAmount();
 
             mixes += amount;
+            if(amount > 0) {
+                paintWithMix++;
+            }
 
             r += amount * paint.getR();
             g += amount * paint.getG();
@@ -53,6 +57,8 @@ public class MixerEasyScoreCalculator implements
         var bDistance = Math.pow(scaledB - targetPaint.getB(), 2);
 
         var mediumScore = (long) -(rDistance + gDistance + bDistance);
+        mediumScore -=   paintWithMix;
+
         var softScore = -mixes;
 
         return HardMediumSoftLongScore.of(0L, mediumScore, softScore);

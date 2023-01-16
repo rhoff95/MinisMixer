@@ -2,64 +2,1466 @@
   <id>0</id>
   <targetPaint id="2">
     <id>386</id>
-    <r>233.0</r>
-    <g>106.0</g>
-    <b>26.0</b>
-    <label>Orange Fire</label>
+    <r>243.0</r>
+    <g>181.0</g>
+    <b>170.0</b>
+    <label>Rosy Flesh</label>
   </targetPaint>
-  <paints class="java.util.Arrays$ArrayList" id="3">
-    <a class="Paint-array" id="4">
-      <Paint id="5">
-        <id>387</id>
-        <r>252.0</r>
-        <g>224.0</g>
-        <b>1.0</b>
-        <label>Moon Yellow</label>
-      </Paint>
-      <Paint id="6">
-        <id>388</id>
-        <r>253.0</r>
-        <g>197.0</g>
-        <b>0.0</b>
-        <label>Gold Yellow</label>
-      </Paint>
-      <Paint id="7">
-        <id>389</id>
-        <r>230.0</r>
-        <g>76.0</g>
-        <b>42.0</b>
-        <label>Hot Orange</label>
-      </Paint>
-      <Paint id="8">
-        <id>390</id>
-        <r>191.0</r>
-        <g>34.0</g>
-        <b>52.0</b>
-        <label>Bloody Red</label>
-      </Paint>
-    </a>
+  <paints id="3">
+    <Paint id="4">
+      <id>387</id>
+      <r>255.0</r>
+      <g>255.0</g>
+      <b>255.0</b>
+      <label>vallejo arctic white</label>
+    </Paint>
+    <Paint id="5">
+      <id>388</id>
+      <r>118.0</r>
+      <g>86.0</g>
+      <b>61.0</b>
+      <label>vallejo beasty brown</label>
+    </Paint>
+    <Paint id="6">
+      <id>389</id>
+      <r>1.0</r>
+      <g>1.0</g>
+      <b>1.0</b>
+      <label>vallejo black</label>
+    </Paint>
+    <Paint id="7">
+      <id>390</id>
+      <r>15.0</r>
+      <g>101.0</g>
+      <b>74.0</b>
+      <label>vallejo black green ink</label>
+    </Paint>
+    <Paint id="8">
+      <id>391</id>
+      <r>40.0</r>
+      <g>39.0</g>
+      <b>34.0</b>
+      <label>vallejo black ink</label>
+    </Paint>
+    <Paint id="9">
+      <id>392</id>
+      <r>191.0</r>
+      <g>17.0</g>
+      <b>52.0</b>
+      <label>vallejo bloody red</label>
+    </Paint>
+    <Paint id="10">
+      <id>393</id>
+      <r>0.0</r>
+      <g>76.0</g>
+      <b>154.0</b>
+      <label>vallejo blue ink</label>
+    </Paint>
+    <Paint id="11">
+      <id>394</id>
+      <r>228.0</r>
+      <g>197.0</g>
+      <b>150.0</b>
+      <label>vallejo bonewhite</label>
+    </Paint>
+    <Paint id="12">
+      <id>395</id>
+      <r>132.0</r>
+      <g>85.0</g>
+      <b>57.0</b>
+      <label>vallejo brassy brass</label>
+    </Paint>
+    <Paint id="13">
+      <id>396</id>
+      <r>163.0</r>
+      <g>105.0</g>
+      <b>65.0</b>
+      <label>vallejo bright bronze</label>
+    </Paint>
+    <Paint id="14">
+      <id>397</id>
+      <r>241.0</r>
+      <g>167.0</g>
+      <b>94.0</b>
+      <label>vallejo bronze fleshtone</label>
+    </Paint>
+    <Paint id="15">
+      <id>398</id>
+      <r>154.0</r>
+      <g>99.0</g>
+      <b>42.0</b>
+      <label>vallejo brown ink</label>
+    </Paint>
+    <Paint id="16">
+      <id>399</id>
+      <r>248.0</r>
+      <g>177.0</g>
+      <b>133.0</b>
+      <label>vallejo cadmium skin</label>
+    </Paint>
+    <Paint id="17">
+      <id>400</id>
+      <r>141.0</r>
+      <g>123.0</g>
+      <b>61.0</b>
+      <label>vallejo camouflage green</label>
+    </Paint>
+    <Paint id="18">
+      <id>401</id>
+      <r>0.0</r>
+      <g>89.0</g>
+      <b>61.0</b>
+      <label>vallejo cayman green</label>
+    </Paint>
+    <Paint id="19">
+      <id>402</id>
+      <r>124.0</r>
+      <g>124.0</g>
+      <b>124.0</b>
+      <label>vallejo chainmail silver</label>
+    </Paint>
+    <Paint id="20">
+      <id>403</id>
+      <r>75.0</r>
+      <g>64.0</g>
+      <b>60.0</b>
+      <label>vallejo charred brown</label>
+    </Paint>
+    <Paint id="21">
+      <id>404</id>
+      <r>124.0</r>
+      <g>124.0</g>
+      <b>124.0</b>
+      <label>vallejo cold grey</label>
+    </Paint>
+    <Paint id="22">
+      <id>405</id>
+      <r>70.0</r>
+      <g>71.0</g>
+      <b>117.0</b>
+      <label>vallejo dark blue</label>
+    </Paint>
+    <Paint id="23">
+      <id>406</id>
+      <r>97.0</r>
+      <g>64.0</g>
+      <b>55.0</b>
+      <label>vallejo dark fleshtone</label>
+    </Paint>
+    <Paint id="24">
+      <id>407</id>
+      <r>56.0</r>
+      <g>67.0</g>
+      <b>61.0</b>
+      <label>vallejo dark green</label>
+    </Paint>
+    <Paint id="25">
+      <id>408</id>
+      <r>211.0</r>
+      <g>198.0</g>
+      <b>130.0</b>
+      <label>vallejo dead flesh</label>
+    </Paint>
+    <Paint id="26">
+      <id>409</id>
+      <r>255.0</r>
+      <g>255.0</g>
+      <b>255.0</b>
+      <label>vallejo dead white</label>
+    </Paint>
+    <Paint id="27">
+      <id>410</id>
+      <r>153.0</r>
+      <g>136.0</g>
+      <b>67.0</b>
+      <label>vallejo desert yellow</label>
+    </Paint>
+    <Paint id="28">
+      <id>411</id>
+      <r>98.0</r>
+      <g>42.0</g>
+      <b>29.0</b>
+      <label>vallejo dried blood</label>
+    </Paint>
+    <Paint id="29">
+      <id>412</id>
+      <r>94.0</r>
+      <g>51.0</g>
+      <b>45.0</b>
+      <label>vallejo dry rust</label>
+    </Paint>
+    <Paint id="30">
+      <id>413</id>
+      <r>217.0</r>
+      <g>145.0</g>
+      <b>105.0</b>
+      <label>vallejo dwarf skin</label>
+    </Paint>
+    <Paint id="31">
+      <id>414</id>
+      <r>122.0</r>
+      <g>96.0</g>
+      <b>69.0</b>
+      <label>vallejo earth</label>
+    </Paint>
+    <Paint id="32">
+      <id>415</id>
+      <r>52.0</r>
+      <g>149.0</g>
+      <b>182.0</b>
+      <label>vallejo electric blue</label>
+    </Paint>
+    <Paint id="33">
+      <id>416</id>
+      <r>224.0</r>
+      <g>163.0</g>
+      <b>116.0</b>
+      <label>vallejo elf skintone</label>
+    </Paint>
+    <Paint id="34">
+      <id>417</id>
+      <r>234.0</r>
+      <g>215.0</g>
+      <b>183.0</b>
+      <label>vallejo elfic flesh</label>
+    </Paint>
+    <Paint id="35">
+      <id>418</id>
+      <r>119.0</r>
+      <g>166.0</g>
+      <b>74.0</b>
+      <label>vallejo escorpena green</label>
+    </Paint>
+    <Paint id="36">
+      <id>419</id>
+      <r>233.0</r>
+      <g>147.0</g>
+      <b>0.0</b>
+      <label>vallejo filthy brown</label>
+    </Paint>
+    <Paint id="37">
+      <id>420</id>
+      <r>193.0</r>
+      <g>212.0</g>
+      <b>96.0</b>
+      <label>vallejo fluorescent green</label>
+    </Paint>
+    <Paint id="38">
+      <id>421</id>
+      <r>255.0</r>
+      <g>238.0</g>
+      <b>0.0</b>
+      <label>vallejo fluorescent yellow</label>
+    </Paint>
+    <Paint id="39">
+      <id>422</id>
+      <r>63.0</r>
+      <g>158.0</g>
+      <b>128.0</b>
+      <label>vallejo foul green</label>
+    </Paint>
+    <Paint id="40">
+      <id>423</id>
+      <r>126.0</r>
+      <g>43.0</g>
+      <b>25.0</b>
+      <label>vallejo fresh blood</label>
+    </Paint>
+    <Paint id="41">
+      <id>424</id>
+      <r>194.0</r>
+      <g>203.0</g>
+      <b>212.0</b>
+      <label>vallejo ghost grey</label>
+    </Paint>
+    <Paint id="42">
+      <id>425</id>
+      <r>180.0</r>
+      <g>206.0</g>
+      <b>233.0</b>
+      <label>vallejo glacier blue</label>
+    </Paint>
+    <Paint id="43">
+      <id>426</id>
+      <r>155.0</r>
+      <g>109.0</g>
+      <b>50.0</b>
+      <label>vallejo glorious gold</label>
+    </Paint>
+    <Paint id="44">
+      <id>427</id>
+      <r>43.0</r>
+      <g>108.0</g>
+      <b>40.0</b>
+      <label>vallejo goblin green</label>
+    </Paint>
+    <Paint id="45">
+      <id>428</id>
+      <r>253.0</r>
+      <g>197.0</g>
+      <b>0.0</b>
+      <label>vallejo gold yellow</label>
+    </Paint>
+    <Paint id="46">
+      <id>429</id>
+      <r>133.0</r>
+      <g>14.0</g>
+      <b>52.0</b>
+      <label>vallejo gory red</label>
+    </Paint>
+    <Paint id="47">
+      <id>430</id>
+      <r>61.0</r>
+      <g>170.0</g>
+      <b>103.0</b>
+      <label>vallejo green ink</label>
+    </Paint>
+    <Paint id="48">
+      <id>431</id>
+      <r>99.0</r>
+      <g>99.0</g>
+      <b>101.0</b>
+      <label>vallejo gunmetal</label>
+    </Paint>
+    <Paint id="49">
+      <id>432</id>
+      <r>122.0</r>
+      <g>69.0</g>
+      <b>55.0</b>
+      <label>vallejo hammered copper</label>
+    </Paint>
+    <Paint id="50">
+      <id>433</id>
+      <r>62.0</r>
+      <g>73.0</g>
+      <b>67.0</b>
+      <label>vallejo heavy blackgreen</label>
+    </Paint>
+    <Paint id="51">
+      <id>434</id>
+      <r>64.0</r>
+      <g>91.0</g>
+      <b>120.0</b>
+      <label>vallejo heavy blue</label>
+    </Paint>
+    <Paint id="52">
+      <id>435</id>
+      <r>203.0</r>
+      <g>202.0</g>
+      <b>200.0</b>
+      <label>vallejo heavy bluegrey</label>
+    </Paint>
+    <Paint id="53">
+      <id>436</id>
+      <r>123.0</r>
+      <g>103.0</g>
+      <b>78.0</b>
+      <label>vallejo heavy brown</label>
+    </Paint>
+    <Paint id="54">
+      <id>437</id>
+      <r>70.0</r>
+      <g>70.0</g>
+      <b>78.0</b>
+      <label>vallejo heavy charcoal</label>
+    </Paint>
+    <Paint id="55">
+      <id>438</id>
+      <r>182.0</r>
+      <g>134.0</g>
+      <b>68.0</b>
+      <label>vallejo heavy goldbrown</label>
+    </Paint>
+    <Paint id="56">
+      <id>439</id>
+      <r>86.0</r>
+      <g>102.0</g>
+      <b>55.0</b>
+      <label>vallejo heavy green</label>
+    </Paint>
+    <Paint id="57">
+      <id>440</id>
+      <r>112.0</r>
+      <g>115.0</g>
+      <b>84.0</b>
+      <label>vallejo heavy grey</label>
+    </Paint>
+    <Paint id="58">
+      <id>441</id>
+      <r>180.0</r>
+      <g>159.0</g>
+      <b>80.0</b>
+      <label>vallejo heavy kakhi</label>
+    </Paint>
+    <Paint id="59">
+      <id>442</id>
+      <r>174.0</r>
+      <g>119.0</g>
+      <b>39.0</b>
+      <label>vallejo heavy ochre</label>
+    </Paint>
+    <Paint id="60">
+      <id>443</id>
+      <r>235.0</r>
+      <g>94.0</g>
+      <b>15.0</b>
+      <label>vallejo heavy orange</label>
+    </Paint>
+    <Paint id="61">
+      <id>444</id>
+      <r>141.0</r>
+      <g>54.0</g>
+      <b>60.0</b>
+      <label>vallejo heavy red</label>
+    </Paint>
+    <Paint id="62">
+      <id>445</id>
+      <r>94.0</r>
+      <g>72.0</g>
+      <b>59.0</b>
+      <label>vallejo heavy siena</label>
+    </Paint>
+    <Paint id="63">
+      <id>446</id>
+      <r>173.0</r>
+      <g>132.0</g>
+      <b>104.0</b>
+      <label>vallejo heavy skintone</label>
+    </Paint>
+    <Paint id="64">
+      <id>447</id>
+      <r>72.0</r>
+      <g>64.0</g>
+      <b>105.0</b>
+      <label>vallejo heavy violet</label>
+    </Paint>
+    <Paint id="65">
+      <id>448</id>
+      <r>170.0</r>
+      <g>157.0</g>
+      <b>115.0</b>
+      <label>vallejo heavy wamgrey</label>
+    </Paint>
+    <Paint id="66">
+      <id>449</id>
+      <r>81.0</r>
+      <g>46.0</g>
+      <b>126.0</b>
+      <label>vallejo hexed lichen</label>
+    </Paint>
+    <Paint id="67">
+      <id>450</id>
+      <r>230.0</r>
+      <g>76.0</g>
+      <b>42.0</b>
+      <label>vallejo hot orange</label>
+    </Paint>
+    <Paint id="68">
+      <id>451</id>
+      <r>52.0</r>
+      <g>72.0</g>
+      <b>99.0</b>
+      <label>vallejo imperial blue</label>
+    </Paint>
+    <Paint id="69">
+      <id>452</id>
+      <r>0.0</r>
+      <g>130.0</g>
+      <b>102.0</b>
+      <label>vallejo jade green</label>
+    </Paint>
+    <Paint id="70">
+      <id>453</id>
+      <r>170.0</r>
+      <g>157.0</g>
+      <b>115.0</b>
+      <label>vallejo khaki</label>
+    </Paint>
+    <Paint id="71">
+      <id>454</id>
+      <r>135.0</r>
+      <g>100.0</g>
+      <b>60.0</b>
+      <label>vallejo leather brown</label>
+    </Paint>
+    <Paint id="72">
+      <id>455</id>
+      <r>157.0</r>
+      <g>196.0</g>
+      <b>81.0</b>
+      <label>vallejo livery green</label>
+    </Paint>
+    <Paint id="73">
+      <id>456</id>
+      <r>1.0</r>
+      <g>109.0</g>
+      <b>181.0</b>
+      <label>vallejo magic blue</label>
+    </Paint>
+    <Paint id="74">
+      <id>457</id>
+      <r>252.0</r>
+      <g>224.0</g>
+      <b>0.0</b>
+      <label>vallejo moon yellow</label>
+    </Paint>
+    <Paint id="75">
+      <id>458</id>
+      <r>76.0</r>
+      <g>118.0</g>
+      <b>80.0</b>
+      <label>vallejo mutation green</label>
+    </Paint>
+    <Paint id="76">
+      <id>459</id>
+      <r>57.0</r>
+      <g>57.0</g>
+      <b>69.0</b>
+      <label>vallejo night blue</label>
+    </Paint>
+    <Paint id="77">
+      <id>460</id>
+      <r>253.0</r>
+      <g>243.0</g>
+      <b>218.0</b>
+      <label>vallejo off white</label>
+    </Paint>
+    <Paint id="78">
+      <id>461</id>
+      <r>233.0</r>
+      <g>101.0</g>
+      <b>26.0</b>
+      <label>vallejo orange fire</label>
+    </Paint>
+    <Paint id="79">
+      <id>462</id>
+      <r>236.0</r>
+      <g>189.0</g>
+      <b>169.0</b>
+      <label>vallejo pale flesh</label>
+    </Paint>
+    <Paint id="80">
+      <id>463</id>
+      <r>234.0</r>
+      <g>205.0</g>
+      <b>125.0</b>
+      <label>vallejo pale yellow</label>
+    </Paint>
+    <Paint id="81">
+      <id>464</id>
+      <r>161.0</r>
+      <g>80.0</g>
+      <b>25.0</b>
+      <label>vallejo parasite brown</label>
+    </Paint>
+    <Paint id="82">
+      <id>465</id>
+      <r>209.0</r>
+      <g>143.0</g>
+      <b>5.0</b>
+      <label>vallejo plague brown</label>
+    </Paint>
+    <Paint id="83">
+      <id>466</id>
+      <r>210.0</r>
+      <g>174.0</g>
+      <b>34.0</b>
+      <label>vallejo polished gold</label>
+    </Paint>
+    <Paint id="84">
+      <id>467</id>
+      <r>229.0</r>
+      <g>50.0</g>
+      <b>56.0</b>
+      <label>vallejo red ink</label>
+    </Paint>
+    <Paint id="85">
+      <id>468</id>
+      <r>243.0</r>
+      <g>181.0</g>
+      <b>170.0</b>
+      <label>vallejo rosy flesh</label>
+    </Paint>
+    <Paint id="86">
+      <id>469</id>
+      <r>240.0</r>
+      <g>238.0</g>
+      <b>239.0</b>
+      <label>vallejo rotten white</label>
+    </Paint>
+    <Paint id="87">
+      <id>470</id>
+      <r>70.0</r>
+      <g>67.0</g>
+      <b>98.0</b>
+      <label>vallejo royal purple</label>
+    </Paint>
+    <Paint id="88">
+      <id>471</id>
+      <r>228.0</r>
+      <g>83.0</g>
+      <b>20.0</b>
+      <label>vallejo rust</label>
+    </Paint>
+    <Paint id="89">
+      <id>472</id>
+      <r>228.0</r>
+      <g>0.0</g>
+      <b>89.0</b>
+      <label>vallejo scarlett blood</label>
+    </Paint>
+    <Paint id="90">
+      <id>473</id>
+      <r>156.0</r>
+      <g>18.0</g>
+      <b>44.0</b>
+      <label>vallejo scarlett red</label>
+    </Paint>
+    <Paint id="91">
+      <id>474</id>
+      <r>187.0</r>
+      <g>119.0</g>
+      <b>46.0</b>
+      <label>vallejo scrofulous brown</label>
+    </Paint>
+    <Paint id="92">
+      <id>475</id>
+      <r>40.0</r>
+      <g>86.0</g>
+      <b>83.0</b>
+      <label>vallejo scurvy green</label>
+    </Paint>
+    <Paint id="93">
+      <id>476</id>
+      <r>155.0</r>
+      <g>111.0</g>
+      <b>40.0</b>
+      <label>vallejo sepia ink</label>
+    </Paint>
+    <Paint id="94">
+      <id>477</id>
+      <r>75.0</r>
+      <g>110.0</g>
+      <b>78.0</b>
+      <label>vallejo sick green</label>
+    </Paint>
+    <Paint id="95">
+      <id>478</id>
+      <r>167.0</r>
+      <g>172.0</g>
+      <b>176.0</b>
+      <label>vallejo silver</label>
+    </Paint>
+    <Paint id="96">
+      <id>479</id>
+      <r>197.0</r>
+      <g>111.0</g>
+      <b>24.0</b>
+      <label>vallejo skin wash ink</label>
+    </Paint>
+    <Paint id="97">
+      <id>480</id>
+      <r>73.0</r>
+      <g>54.0</g>
+      <b>50.0</b>
+      <label>vallejo smokey ink</label>
+    </Paint>
+    <Paint id="98">
+      <id>481</id>
+      <r>96.0</r>
+      <g>107.0</g>
+      <b>127.0</b>
+      <label>vallejo sombre grey</label>
+    </Paint>
+    <Paint id="99">
+      <id>482</id>
+      <r>209.0</r>
+      <g>138.0</g>
+      <b>182.0</b>
+      <label>vallejo squid pink</label>
+    </Paint>
+    <Paint id="100">
+      <id>483</id>
+      <r>114.0</r>
+      <g>143.0</g>
+      <b>161.0</b>
+      <label>vallejo steel grey</label>
+    </Paint>
+    <Paint id="101">
+      <id>484</id>
+      <r>159.0</r>
+      <g>159.0</g>
+      <b>159.0</b>
+      <label>vallejo stonewall grey</label>
+    </Paint>
+    <Paint id="102">
+      <id>485</id>
+      <r>65.0</r>
+      <g>63.0</g>
+      <b>87.0</b>
+      <label>vallejo stormy blue</label>
+    </Paint>
+    <Paint id="103">
+      <id>486</id>
+      <r>254.0</r>
+      <g>227.0</g>
+      <b>0.0</b>
+      <label>vallejo sun yellow</label>
+    </Paint>
+    <Paint id="104">
+      <id>487</id>
+      <r>168.0</r>
+      <g>89.0</g>
+      <b>74.0</b>
+      <label>vallejo tan</label>
+    </Paint>
+    <Paint id="105">
+      <id>488</id>
+      <r>105.0</r>
+      <g>62.0</g>
+      <b>56.0</b>
+      <label>vallejo terracotta</label>
+    </Paint>
+    <Paint id="106">
+      <id>489</id>
+      <r>80.0</r>
+      <g>46.0</g>
+      <b>47.0</b>
+      <label>vallejo tinny tin</label>
+    </Paint>
+    <Paint id="107">
+      <id>490</id>
+      <r>1.0</r>
+      <g>127.0</g>
+      <b>142.0</b>
+      <label>vallejo turquoise</label>
+    </Paint>
+    <Paint id="108">
+      <id>491</id>
+      <r>28.0</r>
+      <g>83.0</g>
+      <b>137.0</b>
+      <label>vallejo ultramarine blue</label>
+    </Paint>
+    <Paint id="109">
+      <id>492</id>
+      <r>169.0</r>
+      <g>215.0</g>
+      <b>212.0</b>
+      <label>vallejo verdigris</label>
+    </Paint>
+    <Paint id="110">
+      <id>493</id>
+      <r>145.0</r>
+      <g>203.0</g>
+      <b>204.0</b>
+      <label>vallejo verdigris</label>
+    </Paint>
+    <Paint id="111">
+      <id>494</id>
+      <r>104.0</r>
+      <g>46.0</g>
+      <b>133.0</b>
+      <label>vallejo violet ink</label>
+    </Paint>
+    <Paint id="112">
+      <id>495</id>
+      <r>132.0</r>
+      <g>124.0</g>
+      <b>51.0</b>
+      <label>vallejo vomit</label>
+    </Paint>
+    <Paint id="113">
+      <id>496</id>
+      <r>134.0</r>
+      <g>34.0</g>
+      <b>70.0</b>
+      <label>vallejo warlord purple</label>
+    </Paint>
+    <Paint id="114">
+      <id>497</id>
+      <r>175.0</r>
+      <g>193.0</g>
+      <b>203.0</b>
+      <label>vallejo wolf grey</label>
+    </Paint>
+    <Paint id="115">
+      <id>498</id>
+      <r>254.0</r>
+      <g>211.0</g>
+      <b>70.0</b>
+      <label>vallejo yellow ink</label>
+    </Paint>
+    <Paint id="116">
+      <id>499</id>
+      <r>30.0</r>
+      <g>79.0</g>
+      <b>57.0</b>
+      <label>vallejo yellow olive</label>
+    </Paint>
+    <Paint id="117">
+      <id>500</id>
+      <r>139.0</r>
+      <g>98.0</g>
+      <b>44.0</b>
+      <label>wash vallejo</label>
+    </Paint>
+    <Paint id="118">
+      <id>501</id>
+      <r>52.0</r>
+      <g>50.0</g>
+      <b>53.0</b>
+      <label>wash vallejo</label>
+    </Paint>
+    <Paint id="119">
+      <id>502</id>
+      <r>202.0</r>
+      <g>202.0</g>
+      <b>210.0</b>
+      <label>wash vallejo</label>
+    </Paint>
+    <Paint id="120">
+      <id>503</id>
+      <r>118.0</r>
+      <g>96.0</g>
+      <b>83.0</b>
+      <label>wash vallejo</label>
+    </Paint>
+    <Paint id="121">
+      <id>504</id>
+      <r>182.0</r>
+      <g>124.0</g>
+      <b>120.0</b>
+      <label>wash vallejo</label>
+    </Paint>
+    <Paint id="122">
+      <id>505</id>
+      <r>114.0</r>
+      <g>178.0</g>
+      <b>91.0</b>
+      <label>wash vallejo</label>
+    </Paint>
+    <Paint id="123">
+      <id>506</id>
+      <r>213.0</r>
+      <g>94.0</g>
+      <b>134.0</b>
+      <label>wash vallejo</label>
+    </Paint>
+    <Paint id="124">
+      <id>507</id>
+      <r>26.0</r>
+      <g>91.0</g>
+      <b>155.0</b>
+      <label>wash vallejo</label>
+    </Paint>
   </paints>
-  <paintMixes id="9">
-    <PaintMix id="10">
+  <paintMixes id="125">
+    <PaintMix id="126">
       <id>0</id>
+      <paint reference="4"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="127">
+      <id>1</id>
       <paint reference="5"/>
       <amount>0</amount>
     </PaintMix>
-    <PaintMix id="11">
-      <id>1</id>
+    <PaintMix id="128">
+      <id>2</id>
       <paint reference="6"/>
       <amount>0</amount>
     </PaintMix>
-    <PaintMix id="12">
-      <id>2</id>
+    <PaintMix id="129">
+      <id>3</id>
       <paint reference="7"/>
       <amount>0</amount>
     </PaintMix>
-    <PaintMix id="13">
-      <id>3</id>
+    <PaintMix id="130">
+      <id>4</id>
       <paint reference="8"/>
       <amount>0</amount>
     </PaintMix>
+    <PaintMix id="131">
+      <id>5</id>
+      <paint reference="9"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="132">
+      <id>6</id>
+      <paint reference="10"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="133">
+      <id>7</id>
+      <paint reference="11"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="134">
+      <id>8</id>
+      <paint reference="12"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="135">
+      <id>9</id>
+      <paint reference="13"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="136">
+      <id>10</id>
+      <paint reference="14"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="137">
+      <id>11</id>
+      <paint reference="15"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="138">
+      <id>12</id>
+      <paint reference="16"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="139">
+      <id>13</id>
+      <paint reference="17"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="140">
+      <id>14</id>
+      <paint reference="18"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="141">
+      <id>15</id>
+      <paint reference="19"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="142">
+      <id>16</id>
+      <paint reference="20"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="143">
+      <id>17</id>
+      <paint reference="21"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="144">
+      <id>18</id>
+      <paint reference="22"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="145">
+      <id>19</id>
+      <paint reference="23"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="146">
+      <id>20</id>
+      <paint reference="24"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="147">
+      <id>21</id>
+      <paint reference="25"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="148">
+      <id>22</id>
+      <paint reference="26"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="149">
+      <id>23</id>
+      <paint reference="27"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="150">
+      <id>24</id>
+      <paint reference="28"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="151">
+      <id>25</id>
+      <paint reference="29"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="152">
+      <id>26</id>
+      <paint reference="30"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="153">
+      <id>27</id>
+      <paint reference="31"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="154">
+      <id>28</id>
+      <paint reference="32"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="155">
+      <id>29</id>
+      <paint reference="33"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="156">
+      <id>30</id>
+      <paint reference="34"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="157">
+      <id>31</id>
+      <paint reference="35"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="158">
+      <id>32</id>
+      <paint reference="36"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="159">
+      <id>33</id>
+      <paint reference="37"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="160">
+      <id>34</id>
+      <paint reference="38"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="161">
+      <id>35</id>
+      <paint reference="39"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="162">
+      <id>36</id>
+      <paint reference="40"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="163">
+      <id>37</id>
+      <paint reference="41"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="164">
+      <id>38</id>
+      <paint reference="42"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="165">
+      <id>39</id>
+      <paint reference="43"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="166">
+      <id>40</id>
+      <paint reference="44"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="167">
+      <id>41</id>
+      <paint reference="45"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="168">
+      <id>42</id>
+      <paint reference="46"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="169">
+      <id>43</id>
+      <paint reference="47"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="170">
+      <id>44</id>
+      <paint reference="48"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="171">
+      <id>45</id>
+      <paint reference="49"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="172">
+      <id>46</id>
+      <paint reference="50"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="173">
+      <id>47</id>
+      <paint reference="51"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="174">
+      <id>48</id>
+      <paint reference="52"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="175">
+      <id>49</id>
+      <paint reference="53"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="176">
+      <id>50</id>
+      <paint reference="54"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="177">
+      <id>51</id>
+      <paint reference="55"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="178">
+      <id>52</id>
+      <paint reference="56"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="179">
+      <id>53</id>
+      <paint reference="57"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="180">
+      <id>54</id>
+      <paint reference="58"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="181">
+      <id>55</id>
+      <paint reference="59"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="182">
+      <id>56</id>
+      <paint reference="60"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="183">
+      <id>57</id>
+      <paint reference="61"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="184">
+      <id>58</id>
+      <paint reference="62"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="185">
+      <id>59</id>
+      <paint reference="63"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="186">
+      <id>60</id>
+      <paint reference="64"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="187">
+      <id>61</id>
+      <paint reference="65"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="188">
+      <id>62</id>
+      <paint reference="66"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="189">
+      <id>63</id>
+      <paint reference="67"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="190">
+      <id>64</id>
+      <paint reference="68"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="191">
+      <id>65</id>
+      <paint reference="69"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="192">
+      <id>66</id>
+      <paint reference="70"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="193">
+      <id>67</id>
+      <paint reference="71"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="194">
+      <id>68</id>
+      <paint reference="72"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="195">
+      <id>69</id>
+      <paint reference="73"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="196">
+      <id>70</id>
+      <paint reference="74"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="197">
+      <id>71</id>
+      <paint reference="75"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="198">
+      <id>72</id>
+      <paint reference="76"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="199">
+      <id>73</id>
+      <paint reference="77"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="200">
+      <id>74</id>
+      <paint reference="78"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="201">
+      <id>75</id>
+      <paint reference="79"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="202">
+      <id>76</id>
+      <paint reference="80"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="203">
+      <id>77</id>
+      <paint reference="81"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="204">
+      <id>78</id>
+      <paint reference="82"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="205">
+      <id>79</id>
+      <paint reference="83"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="206">
+      <id>80</id>
+      <paint reference="84"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="207">
+      <id>81</id>
+      <paint reference="85"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="208">
+      <id>82</id>
+      <paint reference="86"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="209">
+      <id>83</id>
+      <paint reference="87"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="210">
+      <id>84</id>
+      <paint reference="88"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="211">
+      <id>85</id>
+      <paint reference="89"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="212">
+      <id>86</id>
+      <paint reference="90"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="213">
+      <id>87</id>
+      <paint reference="91"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="214">
+      <id>88</id>
+      <paint reference="92"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="215">
+      <id>89</id>
+      <paint reference="93"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="216">
+      <id>90</id>
+      <paint reference="94"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="217">
+      <id>91</id>
+      <paint reference="95"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="218">
+      <id>92</id>
+      <paint reference="96"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="219">
+      <id>93</id>
+      <paint reference="97"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="220">
+      <id>94</id>
+      <paint reference="98"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="221">
+      <id>95</id>
+      <paint reference="99"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="222">
+      <id>96</id>
+      <paint reference="100"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="223">
+      <id>97</id>
+      <paint reference="101"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="224">
+      <id>98</id>
+      <paint reference="102"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="225">
+      <id>99</id>
+      <paint reference="103"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="226">
+      <id>100</id>
+      <paint reference="104"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="227">
+      <id>101</id>
+      <paint reference="105"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="228">
+      <id>102</id>
+      <paint reference="106"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="229">
+      <id>103</id>
+      <paint reference="107"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="230">
+      <id>104</id>
+      <paint reference="108"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="231">
+      <id>105</id>
+      <paint reference="109"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="232">
+      <id>106</id>
+      <paint reference="110"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="233">
+      <id>107</id>
+      <paint reference="111"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="234">
+      <id>108</id>
+      <paint reference="112"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="235">
+      <id>109</id>
+      <paint reference="113"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="236">
+      <id>110</id>
+      <paint reference="114"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="237">
+      <id>111</id>
+      <paint reference="115"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="238">
+      <id>112</id>
+      <paint reference="116"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="239">
+      <id>113</id>
+      <paint reference="117"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="240">
+      <id>114</id>
+      <paint reference="118"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="241">
+      <id>115</id>
+      <paint reference="119"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="242">
+      <id>116</id>
+      <paint reference="120"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="243">
+      <id>117</id>
+      <paint reference="121"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="244">
+      <id>118</id>
+      <paint reference="122"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="245">
+      <id>119</id>
+      <paint reference="123"/>
+      <amount>0</amount>
+    </PaintMix>
+    <PaintMix id="246">
+      <id>120</id>
+      <paint reference="124"/>
+      <amount>0</amount>
+    </PaintMix>
   </paintMixes>
-  <score id="14">0hard/0medium/0soft</score>
+  <score id="247">0hard/0medium/0soft</score>
 </Mixer>
